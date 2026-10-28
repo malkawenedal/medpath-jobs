@@ -26,15 +26,32 @@ jobs:
       - name: Refresh public job listings
         run: python scripts/collect_jobs.py
       - name: Save updated public listing data
+        shell: bash
         run: |
+          set -e
+          cp site/jobs.json /tmp/medpath-jobs.json
+          cp seen_jobs.json /tmp/medpath-seen.json
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/jobs.json seen_jobs.json
-          if ! git diff --cached --quiet; then
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/medpath-jobs.json site/jobs.json
+            cp /tmp/medpath-seen.json seen_jobs.json
+            git add site/jobs.json seen_jobs.json
+            if git diff --cached --quiet; then
+              echo "No new public job data to commit."
+              break
+            fi
             git commit -m "Update public medical jobs"
-            git pull --rebase
-            git push
-          fi
+            if git push origin HEAD:main; then
+              echo "Published job data on attempt $attempt"
+              break
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "::warning::Could not save listing data to main after three attempts; deploying latest collected snapshot anyway."
+            fi
+          done
       - uses: actions/configure-pages@v5
         with:
           enablement: true
