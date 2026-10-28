@@ -32,6 +32,7 @@ jobs:
           git add site/jobs.json seen_jobs.json
           if ! git diff --cached --quiet; then
             git commit -m "Update public medical jobs"
+            git pull --rebase
             git push
           fi
       - uses: actions/configure-pages@v5
