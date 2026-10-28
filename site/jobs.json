@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T16:14:08+00:00",
+  "generated_at": "2026-10-28T16:21:20+00:00",
   "jobs": [
     {
       "id": "precisionmedicinegroup:6211312004",
@@ -7080,7 +7080,7 @@
     {
       "company": "Red Cell Partners",
       "ok": true,
-      "total": 28,
+      "total": 29,
       "matched": 7
     },
     {
