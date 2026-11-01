@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T23:19:57+00:00",
+  "generated_at": "2026-11-01T09:08:18+00:00",
   "jobs": [
     {
       "id": "bythebayhealth:5469295008",
@@ -4622,22 +4622,22 @@
       "source": "Greenhouse public job board"
     },
     {
-      "id": "natera:6221120004",
+      "id": "natera:6219612004",
       "company": "Natera",
       "title": "Staff Biostatistician (Clinical Validation)",
-      "location": "San Carlos, CA",
-      "url": "https://job-boards.greenhouse.io/natera/jobs/6221120004",
+      "location": "US Remote",
+      "url": "https://job-boards.greenhouse.io/natera/jobs/6219612004",
       "description": "This is an exciting opportunity to advance Natera’s regulated product portfolio of cutting-edge molecular diagnostic tests. As a Staff Biostatistician, you will leverage your strong applied statistics, IVD, and Clinical Research expertise to drive the strategy, design, analysis, and interpretation of clinical validation studies for kidney disease and other high-priority germline projects. PRIMARY RESPONSIBILITIES:&nbsp; Strategic Study Design and Analysis: Independently lead the design, analysis, and interpretation of clinical validation studies to support in vitro diagnostic approvals (e.g., CDx, 510(k), PMA, etc.)&nbsp; Regulatory Compliance: Ensure statistical methodologies and analyses meet the standards set by regulatory agencies such as FDA. Drive statistical interactions with regulatory authorities. Documentation and Reporting : Prepare comprehensive statistical analysis protocols (SAPs), reports, and presentations for cross-functional and external collaborators and stakeholders. Cross-Functional Leadership : Serve as the statistical lead on high-priority project teams. Partner with Clinical Science, Data Management, and Product teams to integrate statistical expertise into project planning and execution. Identify risks, communicate concerns, and champion solutions to interdisciplinary project teams Clinical Research and Beyond: Drive design and execution of high-impact research clinical trials, studies, and publications that push the development of our world-class product portfolio Stay current with advancements in Biostatistics and clinical validation methodology, implementing innovative approaches to support diagnostic product development and regulatory submissi",
       "updated": "2026-10-14",
       "first_seen_at": "2026-10-28T16:06:27+00:00",
       "source": "Greenhouse public job board"
     },
     {
-      "id": "natera:6219612004",
+      "id": "natera:6221120004",
       "company": "Natera",
       "title": "Staff Biostatistician (Clinical Validation)",
-      "location": "US Remote",
-      "url": "https://job-boards.greenhouse.io/natera/jobs/6219612004",
+      "location": "San Carlos, CA",
+      "url": "https://job-boards.greenhouse.io/natera/jobs/6221120004",
       "description": "This is an exciting opportunity to advance Natera’s regulated product portfolio of cutting-edge molecular diagnostic tests. As a Staff Biostatistician, you will leverage your strong applied statistics, IVD, and Clinical Research expertise to drive the strategy, design, analysis, and interpretation of clinical validation studies for kidney disease and other high-priority germline projects. PRIMARY RESPONSIBILITIES:&nbsp; Strategic Study Design and Analysis: Independently lead the design, analysis, and interpretation of clinical validation studies to support in vitro diagnostic approvals (e.g., CDx, 510(k), PMA, etc.)&nbsp; Regulatory Compliance: Ensure statistical methodologies and analyses meet the standards set by regulatory agencies such as FDA. Drive statistical interactions with regulatory authorities. Documentation and Reporting : Prepare comprehensive statistical analysis protocols (SAPs), reports, and presentations for cross-functional and external collaborators and stakeholders. Cross-Functional Leadership : Serve as the statistical lead on high-priority project teams. Partner with Clinical Science, Data Management, and Product teams to integrate statistical expertise into project planning and execution. Identify risks, communicate concerns, and champion solutions to interdisciplinary project teams Clinical Research and Beyond: Drive design and execution of high-impact research clinical trials, studies, and publications that push the development of our world-class product portfolio Stay current with advancements in Biostatistics and clinical validation methodology, implementing innovative approaches to support diagnostic product development and regulatory submissi",
       "updated": "2026-10-14",
       "first_seen_at": "2026-10-28T16:06:27+00:00",
@@ -6639,7 +6639,7 @@
     {
       "company": "Natera",
       "ok": true,
-      "total": 226,
+      "total": 225,
       "matched": 104
     },
     {
